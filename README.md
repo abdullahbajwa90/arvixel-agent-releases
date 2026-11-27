@@ -6,11 +6,11 @@ Arvixel Agent is a Windows desktop AI agent. Bring your own API key, point it at
 
 ## Download
 
-Get the installers from the [Releases page](https://github.com/abdullahbajwa90/arvixel-agent-releases/releases/latest).
+Get the installers from the [Releases page](https://github.com/abdullahbajwa90/arvixel-agent-releases/releases/tag/v0.1.0).
 
-- `Arvixel Agent_0.1.0_x64-setup.exe` — 5,251,913 bytes
+- `Arvixel.Agent_0.1.0_x64-setup.exe` — 5,251,913 bytes
   SHA256: `E9C2AA23FBC9C44B4FA68DA746721C241EA72027829987FD9DEB3A108C31688A`
-- `Arvixel Agent_0.1.0_x64_en-US.msi` — 7,491,584 bytes
+- `Arvixel.Agent_0.1.0_x64_en-US.msi` — 7,491,584 bytes
   SHA256: `8BB8A5BC6B3D9EC2EA92928BE9D2F059D0FE6EF16D7BE3294BCFFDB987F72B2E`
 
 ### Verify your download
@@ -18,7 +18,7 @@ Get the installers from the [Releases page](https://github.com/abdullahbajwa90/a
 In PowerShell, in the folder with the file:
 
 ```powershell
-Get-FileHash ".\Arvixel Agent_0.1.0_x64-setup.exe" -Algorithm SHA256
+Get-FileHash ".\Arvixel.Agent_0.1.0_x64-setup.exe" -Algorithm SHA256
 ```
 
 The result must match the SHA256 above. If it doesn't, don't run the installer and tell us on Discord.
